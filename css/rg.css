@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+}
+
+.bigBoxContainer {
+  width: 90%;
+  margin: 20px;
+  background-color: white;
+  display: flex;
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  flex-direction: column;
+}
+
+.inputContainer {
+  margin: 20px;
+  float: left;
+  display: flex;
+}
+
+a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.textAreaContainer {
+  width: 100%;
+  height: 70%;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  margin: 10px 0px;
+}
+
+textarea {
+  width: 70%;
+  height: 100%;
+  border: 5px double black;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.normalButton {
+  background-color: rgb(35, 152, 190);
+  width: 80%;
+  height: 50px;
+  outline: none !important;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.normalButton:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.outputContainer {
+  margin: 20px;
+  display: flex;
+}
+
+.smallBoxContainer {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.grammar {
+  justify-content: left;
+  align-items: flex-start;
+  width: 50%;
+  display: flex;
+  margin: 5px 0px 0px 25px;
+  flex-direction: column;
+}
+
+
+.sub-a {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.normalTable {
+  table-layout: fixed;
+  padding: 10px;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+.normalTable th,
+td {
+  border: 1px solid black;
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid white;
+  font-weight: bold;
+}
+
+.normalTable th {
+  color: white;
+  background-color: #3d424a;
+}
+
+.normalTable td:first-child {
+  color: white;
+  background-color: #3d424a;
+}
+
+.normalTable td:not(:first-child) {
+  background-color: #e0e0e0;
+}
+
+.normalTable tr:first-child td {
+  background-color: #3d424a;
+  color: white;
+}
+
+
